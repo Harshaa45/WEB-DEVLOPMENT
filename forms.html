@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+        <style>
+            body{
+                background-color: rgb(158, 196, 238);
+            }
+            table{
+                border: 2px solid black;
+                border-collapse: collapse;
+            }
+            th,td{
+                border: 2px solid black;
+            }
+            label{
+                float: left;
+            }
+            input{
+                width: fit-content;
+                align-items: center;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <center><h1>PG Admission Form</h1></center>
+        <form>
+            <label>Name:</label>
+            <input type="text"  maxlength="30">
+            <br><br>
+            <label>Date of Birth:</label>
+            <input type="date">
+            <br><br>
+            <label>email:</label>
+            <input type="email">
+            <br><br>
+            <label>Contact:</label>
+            <input type="number">
+            <br><br>
+            <label>Gender:</label>
+            <input type="radio" name="a">male
+            <input type="radio" name="a">Female <br> <br>
+            <label>Address:</label>
+            <textarea></textarea>
+            <br><br>
+            <label>City:</label>
+            <input type="text" maxlength="20">
+            <br><br>
+            <label>pincode:</label>
+            <input type="number">
+            <br><br>
+            <label>state:</label>
+            <input type="text">
+            <br><br>
+            <label>Country:</label>
+            <input type="text">
+            <br><br>
+            <label>Hobbies:</label>
+            <input type="checkbox">Playing
+            <input type="checkbox">Singing
+            <input type="checkbox">Dancing
+            <input type="checkbox">Reading Books
+            <input type="checkbox">Drawing
+            <input type="checkbox">Others <textarea></textarea>
+            <br><br>
+            <label>Education Details:</label>
+            <br><br>
+            <table>
+                <thead>
+                    <tr>
+                    <th>S.No.</th>
+                    <th>Class</th>
+                    <th>Board of class</th>
+                    <th>Percentage</th>
+                    <th>year Of passing</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td>1</td>
+                    <td>X</td>
+                    <td><input type="text"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Intermediate</td>
+                        <td><input type="text"></td>
+                        <td><input type="number"></td>
+                        <td><input type="number"></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>UG</td>
+                        <td><input type="text"></td>
+                        <td><input type="number"></td>
+                        <td><input type="number"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <br><br>
+            <label>PG Course applying for:</label>
+            <select>
+                <option>Data Science</option>
+                <option>MCA</option>
+                <option>MBA</option>
+                <option>VLSI</option>
+            </select>
+            <br><br>
+            <label>Upload Photo</label>
+            <input type="file">
+            <br><br>
+            <center>
+            <input type="button" value="Submit">
+            <input type="reset" value="Reset">
+            </center>
+        </form>
+    </body>
+</html>

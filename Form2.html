@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <center><h1>Student Registration Form</h1></center>
+        <style>
+            body{
+                background-color: rgb(158, 196, 238);
+            }
+            
+            input{
+                width: fit-content;
+                align-items: center;
+            }
+            
+        </style>
+        <form>
+            <label>Firstname:</label>
+            <input type="text" max="50"> (max 50 characters allowed)
+            <br><br>
+            <label>Lastname:</label>
+            <input type="text" max="50"> (max 50 characters allowed)
+            <br><br>
+            <label>email:</label>
+            <input type="email">
+            <br><br>
+            <label>Mobile Number:</label> 
+            <input type="number" minlength="10" maxlength="10">(max 10 Digits Allowed)
+            <br><br>
+            <label>Gender:</label>
+            <input type="radio" name="a">male
+            <input type="radio" name="a">Female <br> <br>
+            <label>Date of Birth:</label>
+            <input type="date">
+            <br><br>
+            <label>Address:</label>
+            <textarea></textarea>
+            <br><br>
+            <label>City:</label>
+            <input type="text" maxlength="20">
+            <br><br>
+            <label>pincode:</label>
+            <input type="number">
+            <br><br>
+            <label>state:</label>
+            <input type="text">
+            <br><br>
+            <label>Country:</label>
+            <input type="text">
+            <br><br>
+            <label>Hobbies:</label>
+            <input type="checkbox">Drawing
+            <input type="checkbox">Singing
+            <input type="checkbox">Dancing
+            <input type="checkbox">Sketching
+            <input type="checkbox">Others
+            <br><br>
+            <list>
+                <dl>
+                    <div><dt>Qualifications</dt>
+                    <dd><input type="checkbox">High School(10th)</dd>
+                    <dd><input type="checkbox">Higher School</dd>
+                    <dd><input type="checkbox">Graduation(bachelors)</dd>
+                    <dd><input type="checkbox">Post Graduation(Masters)</dd>
+                    <dd><input type="checkbox">Phd</dd>
+                </div>
+                    <br><br>
+                </dl>
+            </list>
+            <list>
+                <dl>
+                    <dt>Courses Applied For:</dt>
+            <dd><input type="radio" name="c">BCA(Bachelors of Computer Application)</dd>
+            <dd><input type="radio" name="c">B.Com(Bachelor of Commerce)</dd>
+            <dd><input type="radio" name="c">B.Sc(Bachelor of Science)</dd>
+            <dd><input type="radio" name="c">BA(Bachelor of Arts)</dd>
+            <dd><input type="radio" name="c">MCA(Master of Computer Application)</dd>
+            <dd><input type="radio" name="c">M.Com(Master of Commerce)</dd>
+            <dd><input type="radio" name="c">M.Sc(Master of Science)</dd>
+            <dd><input type="radio" name="c">MA(Master of Arts)</dd>
+            </dl>
+            </list>
+            <br><br>
+            <input type="button" value="Submit">
+            <input type="button" value="Register">
+            </form>
+            </body>
+            </html>

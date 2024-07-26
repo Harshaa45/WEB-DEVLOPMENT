@@ -1,0 +1,18 @@
+table{
+    border: 2px solid white;
+    width: 100%;
+}
+th,td{
+    border: 1px solid black;
+    padding: 25px;
+}
+h1{
+    text-align: center;
+}
+th{
+    color: black;
+    background-color: white;
+}
+td{
+    color: rgb(179, 179, 28);
+}
